@@ -134,7 +134,11 @@
         <div class="profile-card">
           <div class="profile-card-glow"></div>
           <div class="profile-image-container">
-            <img src="profilo_pic.jpg" alt="Emiliano Maggi - Junior Software Tester" class="profile-image">
+            <img src="profilo_pic.jpg" 
+                 onerror="if(!this.dataset.tried){this.dataset.tried=1; this.src='profilo%20pic.jpg';} else if(this.dataset.tried==1){this.dataset.tried=2; this.src='profilo pic.jpg';} else if(this.dataset.tried==2){this.dataset.tried=3; this.src='profilo_pic.JPG';}" 
+                 alt="Emiliano Maggi - Junior Software Tester" 
+                 class="profile-image" 
+                 id="profileImg">
             <div class="experience-badge">
               <i class="fa-solid fa-circle-check"></i> QA Mindset
             </div>
@@ -417,7 +421,10 @@
           <!-- Visual Photo Card -->
           <div class="abroad-photo-card">
             <div class="photo-wrapper">
-              <img src="uk_experience.jpg" alt="Regno Unito - Uno scorcio architettonico del periodo di vita in UK" class="abroad-image">
+              <img src="uk_experience.jpg" 
+                   onerror="if(!this.dataset.tried){this.dataset.tried=1; this.src='IMG_20230825_165851_1.jpg';}" 
+                   alt="Regno Unito - Uno scorcio architettonico del periodo di vita in UK" 
+                   class="abroad-image">
               <div class="photo-tag"><i class="fa-solid fa-camera"></i> Liverpool, Regno Unito</div>
             </div>
             <div class="photo-caption">
