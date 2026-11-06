@@ -700,55 +700,6 @@
           </ul>
         </div>
       </div>
-
-      <!-- INTERACTIVE QA SHOWCASE: Come Emiliano struttura un Bug Report -->
-      <div class="bug-showcase-box">
-        <div class="showcase-header">
-          <div class="showcase-badge"><i class="fa-solid fa-terminal"></i> Metodologia Pratica</div>
-          <h3>La Mia Definizione di un Bug Report Efficace</h3>
-          <p>Un esempio concreto di come documento un'anomalia per facilitare la diagnosi e il debug immediato agli sviluppatori:</p>
-        </div>
-
-        <div class="bug-ticket-mockup">
-          <div class="ticket-top">
-            <span class="ticket-id">BUG-104</span>
-            <span class="ticket-title">[Checkout] L'input sconto accetta valori negativi causando discrepanza nel totale carrello</span>
-            <span class="ticket-severity severity-high">Severity: Major</span>
-            <span class="ticket-priority priority-high">Priority: High</span>
-          </div>
-
-          <div class="ticket-body">
-            <div class="ticket-row">
-              <strong>Ambiente di Test:</strong> Windows 11 &bull; Chrome 124.0 &bull; Risoluzione 1920x1080 &bull; Ambiente Staging v2.4.1
-            </div>
-            <div class="ticket-row">
-              <strong>Precondizioni:</strong> Utente autenticato con almeno un articolo nel carrello (totale € 50.00).
-            </div>
-            <div class="ticket-row">
-              <strong>Passi per Riprodurre (Step to Reproduce):</strong>
-              <ol>
-                <li>Accedere alla pagina di riepilogo del carrello (`/cart`).</li>
-                <li>Nel campo di input <em>"Inserisci codice sconto o voucher"</em> digitare `-25`.</li>
-                <li>Cliccare sul pulsante <em>"Applica"</em>.</li>
-              </ol>
-            </div>
-            <div class="ticket-row result-grid">
-              <div class="res-expected">
-                <strong><i class="fa-solid fa-circle-check"></i> Risultato Atteso:</strong>
-                <p>Il sistema rifiuta il valore mostrando il messaggio di validazione: <em>"Valore inserito non valido"</em>. Il totale rimane invariato a € 50.00.</p>
-              </div>
-              <div class="res-actual">
-                <strong><i class="fa-solid fa-circle-xmark"></i> Risultato Effettivo:</strong>
-                <p>Il sistema accetta l'input negativo, calcolando `50 - (-25) = 75.00 €` e procedendo verso il gateway di pagamento.</p>
-              </div>
-            </div>
-            <div class="ticket-footer">
-              <span><i class="fa-solid fa-paperclip"></i> <strong>Allegati:</strong> screenshot_cart_negative_val.png, devtools_network_payload.json</span>
-              <span><i class="fa-solid fa-user-tag"></i> <strong>Reporter:</strong> Emiliano Maggi (QA Tester)</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
