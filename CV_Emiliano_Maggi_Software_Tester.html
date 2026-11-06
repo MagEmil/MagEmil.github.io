@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Emiliano Maggi - Junior Software Tester / QA Analyst</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #2563eb;
+      --text-dark: #1f2937;
+      --text-muted: #4b5563;
+      --bg-light: #f8fafc;
+      --border: #e2e8f0;
+      --accent: #0284c7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-dark);
+      background-color: #f1f5f9;
+      line-height: 1.45;
+      font-size: 13.5px;
+      padding: 20px 0;
+    }
+
+    .page {
+      background: #ffffff;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 24mm 20mm;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .header-left h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+
+    .header-left .role-badge {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--secondary);
+    }
+
+    .header-right {
+      text-align: right;
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .header-right a {
+      color: var(--secondary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .profile-summary {
+      color: var(--text-muted);
+      text-align: justify;
+      font-size: 12.8px;
+      line-height: 1.5;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 16px;
+      font-size: 12.5px;
+    }
+
+    .skill-category {
+      background: var(--bg-light);
+      padding: 7px 10px;
+      border-radius: 4px;
+      border-left: 3px solid var(--secondary);
+    }
+
+    .skill-category strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 2px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .experience-item, .education-item {
+      margin-bottom: 10px;
+    }
+
+    .experience-item:last-child, .education-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .item-title {
+      font-weight: 600;
+      font-size: 13.5px;
+      color: var(--text-dark);
+    }
+
+    .item-company {
+      font-weight: 500;
+      color: var(--secondary);
+    }
+
+    .item-date {
+      font-size: 11.5px;
+      color: #64748b;
+      font-weight: 500;
+    }
+
+    ul.bullet-list {
+      list-style-type: disc;
+      padding-left: 18px;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    ul.bullet-list li {
+      margin-bottom: 2px;
+      line-height: 1.4;
+    }
+
+    .tag {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .footer-consent {
+      margin-top: 14px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+      font-size: 10px;
+      color: #94a3b8;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        padding: 14mm 16mm;
+        width: 100%;
+        min-height: auto;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <header>
+      <div class="header-left">
+        <h1>Emiliano Maggi</h1>
+        <div class="role-badge">Junior Software Tester / QA Analyst</div>
+      </div>
+      <div class="header-right">
+        <div>📍 Mestrino (PD) | Disponibile a trasferte & ibrido</div>
+        <div>📞 (+39) 379 1422884</div>
+        <div>✉️ emiliano.maggi91e@gmail.com</div>
+      </div>
+    </header>
+
+    <!-- PROFILO PROFESSIONALE -->
+    <section>
+      <h2>Profilo Professionale</h2>
+      <p class="profile-summary">
+        Junior Software Tester con solida formazione teorico-pratica sulle metodologie <strong>ISTQB</strong> (in fase di conseguimento certificazione CTFL 4.0). Possiedo spiccate capacità analitiche, orientamento al dettaglio e passione per l'individuazione tempestiva di anomalie funzionali, regressioni ed edge case. Forte di un'esperienza pluriennale nel Regno Unito, dispongo di un <strong>inglese fluente (livello C1 certificato)</strong>, ideale per contesti agili internazionali. L'esperienza maturata nei controlli radiogeni di sicurezza aeroportuale ha consolidato una ferrea disciplina nell'applicazione di protocolli, standard rigorosi e checklist di verifica.
+      </p>
+    </section>
+
+    <!-- COMPETENZE CHIAVE -->
+    <section>
+      <h2>Competenze Tecniche & QA</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <strong>Metodologie di Testing & ISTQB</strong>
+          Manual Testing, Functional & Regression Testing, Smoke & Sanity Testing, Black-box Techniques (Equivalence Partitioning, Boundary Value Analysis), STLC, Defect Lifecycle.
+        </div>
+        <div class="skill-category">
+          <strong>Bug Tracking & Strumenti</strong>
+          Scrittura di Bug Report chiari e riproducibili (Passi, Risultati Attesi/Effettivi, Severity/Priority), familiarità con Jira, Trello, Chrome DevTools (Console, Ispezione DOM, Network).
+        </div>
+        <div class="skill-category">
+          <strong>Nozioni Tecniche & Database</strong>
+          Basi di API Testing con Postman (chiamate GET/POST, codici di stato HTTP), interrogazioni database relazionali con query SQL base (SELECT, WHERE, JOIN).
+        </div>
+        <div class="skill-category">
+          <strong>Ambienti & Sistemi</strong>
+          Sistemi operativi Windows 10/11, macOS, nozioni Linux terminale. Suite Microsoft Office 365, Google Workspace.
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAZIONE E CERTIFICAZIONI -->
+    <section>
+      <h2>Istruzione e Certificazioni</h2>
+      <div class="education-item">
+        <div class="item-header">
+          <div><span class="item-title">Certificazione ISTQB® Certified Tester Foundation Level (CTFL)</span> <span class="tag">In corso / Attesa esame</span></div>
+          <span class="item-date">2026</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Studio approfondito di: Principi e fondamenti del testing, Ciclo di vita del software (SDLC/Agile), Tecniche di test statico e dinamico, Test Management e strumenti di supporto.</li>
+        </ul>
+      </div>
+
+      <div class="education-item" style="margin-top: 6px;">
+        <div class="item-header">
+          <div><span class="item-title">Attestato di Lingua Inglese ESOL (Livello C1 - Fluente)</span> | <span class="item-company">Guildford College (UK)</span></div>
+          <span class="item-date">2017 – 2018</span>
+        </div>
+        <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+          Piena padronanza della lingua inglese scritta e parlata in contesti tecnici e professionali internazionali.
+        </p>
+      </div>
+
+      <div class="education-item" style="margin-top: 6px;">
+        <div class="item-header">
+          <div><span class="item-title">Diploma di Tecnico Grafico Pubblicitario</span> | <span class="item-company">IPSSCT G. Salvemini</span></div>
+          <span class="item-date">2005 – 2010</span>
+        </div>
+        <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+          Competenze visive sull'usabilità (UX/UI), layout grafico, conformità visiva e percezione dell'interfaccia utente.
+        </p>
+      </div>
+    </section>
+
+    <!-- ESPERIENZE LAVORATIVE -->
+    <section>
+      <h2>Esperienze Lavorative e Competenze Trasferibili</h2>
+
+      <div class="experience-item">
+        <div class="item-header">
+          <div><span class="item-title">Addetto alla Sicurezza & Screening Radiogeno</span> | <span class="item-company">Aeroporto di Liverpool (UK)</span></div>
+          <span class="item-date">2024 – 2025</span>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Rilevamento anomalie ad alta precisione:</strong> Analisi radiogena (raggi-X) di migliaia di bagagli al giorno per individuare discrepanze ed elementi critici nel rigoroso rispetto delle normative internazionali di sicurezza (Civil Aviation Authority).</li>
+          <li><strong>Esecuzione checklist di controllo:</strong> Applicazione meticolosa di procedure standardizzate (SOP) senza tolleranza di errore, mantenendo elevata concentrazione e velocità analitica sotto pressione.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-header">
+          <div><span class="item-title">Customer Service & Host di Sala</span> | <span class="item-company">Nando’s UK (UK)</span></div>
+          <span class="item-date">2017 – 2023</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Coordinamento operativo e comunicazione costante tra reparti (sala e cucina) in un contesto multinazionale ad altissimo flusso e rapidità.</li>
+          <li>Gestione delle problematiche e dei reclami dei clienti tramite ascolto attivo e de-escalation, assicurando elevati standard qualitativi.</li>
+          <li>Formazione e affiancamento dei nuovi membri dello staff sui processi interni e linee guida aziendali.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-header">
+          <div><span class="item-title">Addetto Diagnostica, Vendite & Gestione Ricambi</span> | <span class="item-company">PG Service Palermo</span></div>
+          <span class="item-date">2016 – 2017</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Supporto tecnico e diagnostica guasti su componenti ed elettrodomestici; verifica conformità e compatibilità di parti di ricambio.</li>
+          <li>Gestione inventario, codifica pezzi, imballaggio e preparazione per le spedizioni tecniche.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LINGUE & SOFT SKILLS -->
+    <section>
+      <h2>Lingue e Soft Skills</h2>
+      <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.5;">
+        <strong>Lingue:</strong> Italiano (Madrelingua) | Inglese (Fluente / C1 certificato - oltre 7 anni di lavoro e vita nel Regno Unito).<br>
+        <strong>Soft Skills:</strong> Elevata attenzione al dettaglio, orientamento al problem solving, pensiero analitico, rispetto rigoroso delle scadenze e dei processi, ottima predisposizione alla collaborazione in team agile.
+      </div>
+    </section>
+
+    <div class="footer-consent">
+      Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del Regolamento UE 2016/679 (GDPR) per le finalità connesse alla selezione del personale.
+    </div>
+  </div>
+
+</body>
+</html>
